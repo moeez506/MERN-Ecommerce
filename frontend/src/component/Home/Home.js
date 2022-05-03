@@ -40,9 +40,9 @@ const Home = () => {
         <Loader />
       ) : (
         <Fragment>
-          <MetaData title={"OneMoreSTEP"} />
+          <MetaData title={"OneMoreStep"} />
           <div className="banner">
-            <p>Welcome to <span>One More STEP</span></p>
+            <p>Welcome to <span>One More Step</span></p>
             <h1>FIND AMAZING PRODUCTS BELOW</h1>
 
             <a href="#container">

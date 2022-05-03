@@ -96,7 +96,7 @@ exports.forgotPassword = catchAsyncError(async (req, res, next) => {
   try {
       await sendEmail({
         email: user.email,
-        subject:`OneMoreSTEP password recovery`,
+        subject:`OneMoreStep password recovery`,
         message,
       });
       res.status(200).json({
